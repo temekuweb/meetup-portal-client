@@ -1,0 +1,13 @@
+version: '3'
+services:
+    node:
+        container_name: node.portal
+        build: ./docker/node/
+        ports:
+            - "3000:3000"
+        user: "node"
+        working_dir: /home/node/node.portal
+        environment:
+            - NODE_ENV=local
+        volumes:
+            - ".:/home/node/node.portal"
