@@ -9,7 +9,25 @@ Overview
 ----
 This is a loosely coupled frontend to the https://github.com/temekuweb/meetup-portal-api repo. 
 
+- Uses React
 - This will consume the API services in a stateless manner.
 - Uses Material UI as it's design foundation, https://material-ui.com/
 - Server Side Rendered pages to support SEO friendly sites using https://nextjs.org/
 
+todo, anything else? 
+
+API
+----
+todo
+
+Build / Deploy
+----
+todo
+
+Testing
+----
+todo
+
+Development Cycle / How to contribute
+---
+todo
